@@ -13,3 +13,14 @@ o2=agv(2,5,)
 
 print(o1)
 print(o2)
+
+
+
+
+def value_(a=int(input("enter your number= ")),b=int(input("enter ypur number= "))):
+    d=(a*b)
+    return d
+
+c =value_()
+print(c)
+# c1=value_(a,b=)
