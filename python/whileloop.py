@@ -21,4 +21,20 @@ while a in [1,2,3,6,5]:
 # i=1
 # while i<4:
 #     print(i+1)
+
+
+
+
+n = int(input("Enter your range: "))
+
+a = 0
+b = 1
+count = 0
+
+while count < n:
+    print(a, end=" ")
+    c = a + b
+    a = b
+    b = c
+    count += 1
     
