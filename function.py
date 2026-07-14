@@ -38,9 +38,19 @@
 
 
 
-def add(a,b,c):
-   x=a+b+c
-   return x
-c= add(1,5,8)
+# def add(a,b,c):
+#    x=a+b+c
+#    return x
+# c= add(1,5,8)
+# print(c)
+# c1= add(a=5,b=1,c=8)
+
+
+def value(a,b):
+    x=a/b
+    return x
+
+a=(int(input("enter your number ")))
+b=(int(input("enter your number ")))
+c=value(a,b)
 print(c)
-c1= add(a=5,b=1,c=8)
