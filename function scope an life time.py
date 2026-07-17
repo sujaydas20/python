@@ -24,8 +24,14 @@ def sum(a,b):
     print("hey i am sujay")
     c=a+b
     global z
-    z=0
+    z=5
     return c
 z=3
 print(sum(7,3))
 print(z)
+
+
+
+
+
+
