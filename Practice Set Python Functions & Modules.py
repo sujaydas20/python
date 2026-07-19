@@ -94,13 +94,26 @@ print(a,b)
 
 
 
-def incre():
-    counter = 0
-    counter +=1
-    print(counter) 
+# def incre():
+#     counter = 0
+#     counter +=1
+#     print(counter) 
 
 
-incre()
-incre()    
-incre()    
-incre()        
+# incre()
+# incre()    
+# incre()    
+# incre()        
+
+
+
+def multi(a,b):
+   '''
+  multiplay the numbber  basicaly write any thigs that you wnat to display in your screen
+   '''
+   
+   return a*b
+
+print(multi(5,5))
+help(multi)
+ 
