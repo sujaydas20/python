@@ -34,4 +34,31 @@ print(add(5,5))
 
 squere=lambda x:x*x
 lst=[1,2,3,4]
-print((map(squere,lst)))
+print(list(map(squere,lst)))
+
+
+
+
+
+
+
+
+# factorial of number
+def factorial(n):
+    if n==0 or n==1:
+
+       return n
+    return factorial(n-1)*n
+print(factorial(5))
+
+
+
+# sum of digit
+
+def sum(n):
+    if n==0:
+        return 0
+    return n%10 + sum(n//10)
+# 7896
+# 2+sum(7896)
+print(sum(7854))
