@@ -19,4 +19,4 @@
 # check the area of the rectangle
 def area(lenth,breath):
     return lenth*breath
-print(area(70,80))
+print(f"the area of a rectangle is {area(70,80)}")
