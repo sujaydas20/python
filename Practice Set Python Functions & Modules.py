@@ -85,11 +85,22 @@ print(a,b)
 # print(a.status_code)
 # print(a.text[:300])   # Print the first 300 characters
 
-import requests
+# import requests
 
-a = requests.get("https://www.instagram.com/maisamayhoon?igsh=MWIzenYzanZzNXdybA==")
+# a = requests.get("https://www.instagram.com/maisamayhoon?igsh=MWIzenYzanZzNXdybA==")
 
-print(a.status_code)
-print(a.json())
+# print(a.status_code)
+# print(a.json())
 
 
+
+def incre():
+    counter = 0
+    counter +=1
+    print(counter) 
+
+
+incre()
+incre()    
+incre()    
+incre()        
