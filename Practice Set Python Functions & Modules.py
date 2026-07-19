@@ -73,3 +73,23 @@ import math
 a= math.sqrt(144)
 b= math. sin( math.radians(90))
 print(a,b)
+
+# import requests
+# a=requests.get("https://github.com/MoreshwarPachbhai")
+# print(a.json())
+
+# import requests
+
+# a = requests.get("https://github.com/MoreshwarPachbhai")
+
+# print(a.status_code)
+# print(a.text[:300])   # Print the first 300 characters
+
+import requests
+
+a = requests.get("https://www.instagram.com/maisamayhoon?igsh=MWIzenYzanZzNXdybA==")
+
+print(a.status_code)
+print(a.json())
+
+
