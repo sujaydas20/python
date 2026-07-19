@@ -62,3 +62,14 @@ def sum(n):
 # 7896
 # 2+sum(7896)
 print(sum(7854))
+
+
+
+
+
+# pip module
+
+import math
+a= math.sqrt(144)
+b= math. sin( math.radians(90))
+print(a,b)
