@@ -33,4 +33,4 @@ print(str1.isalnum())
 
 name="sujay"
 age=25
-print(f"my name is {name} an i am {age} year old")
+print(f"my name is {name} an i am {age}  year old")

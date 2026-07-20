@@ -18,9 +18,6 @@ if a==85:
     pass#do nothing
 print("nothing")
 
-for i in range(0,20):
-    if i ==10:
-        pass #skip the itretion an go  to next step of itretion
-    print(i)    
+
 
 

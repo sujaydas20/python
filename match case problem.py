@@ -1,11 +1,11 @@
-# num=int(input("enter your number="))
-# match num:
-#     case 1:
-#         print("find my ex")
-#     case 2:
-#         print("find my next")   
-#     case 3:
-#         print("find me") 
+num=int(input("enter your number="))
+match num:
+    case 1:
+        print("find my ex")
+    case 2:
+        print("find my next")   
+    case 3:
+        print("find me") 
 
 
 
