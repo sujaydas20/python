@@ -11,3 +11,9 @@ print(type(b))
 tu=(1,2,5)
 a,b,c=tu
 print(a,b,c)
+
+
+
+t=(1,4,55,8,99)
+print(t.count(5))
+print(t.index(55))
