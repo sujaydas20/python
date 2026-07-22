@@ -32,3 +32,9 @@ print(sorted(list1))
 name=['alice','bob','chalie']
 name.insert(1,'davide')
 print(name)
+
+
+# tupel
+cor=(10,20)
+print(cor[0])
+print(cor[1])
