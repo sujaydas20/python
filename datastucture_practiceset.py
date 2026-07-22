@@ -24,4 +24,11 @@ print(lis[-3:])
 
 list1=[5,2,9,1,7]
 list1.append(10)
+list1.remove(2)
 print(sorted(list1))
+
+
+
+name=['alice','bob','chalie']
+name.insert(1,'davide')
+print(name)
