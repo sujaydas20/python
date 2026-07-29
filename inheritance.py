@@ -15,4 +15,6 @@ class dog(animal):
 d= dog("bruno")
 # a=animal("dog")
 d.speak()            
-# print(d.location)
+print(d.location)
+
+print("author:- sujay das")
