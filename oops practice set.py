@@ -20,5 +20,13 @@ print(p1.name,p1.age)
 class animal:
     def sound(self):
         print("some sound")
-        a=animal()
-        a.sound()
+class dog:
+    def sound(self):
+        print("bark")       
+a=animal()
+a.sound()
+b=dog()
+b.sound()
+
+
+
