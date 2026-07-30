@@ -15,3 +15,10 @@ class  person:
         self.age=age
 p1=person('sujay',21)
 print(p1.name,p1.age)
+
+
+class animal:
+    def sound(self):
+        print("some sound")
+        a=animal()
+        a.sound()
