@@ -21,4 +21,58 @@ def f()
     print("i have executed this function..........")
 
 
+# """
+
+
+
+
+# decoraters with argument
+def repeat(n):
+    def decorater(func):
+        def warpper(a):
+            for i in range(n):
+                func(a)
+
+        return warpper
+    return decorater
+@repeat(7)
+def say_hello(a):
+    print(f"hello! {a}")
+say_hello("sujay")    
+
 """
+    it replace the function say_hello with this:
+      def decoraters (func):
+      def warpper(a)
+          for i in range(n)
+              say_hello(a)
+        return warpper        
+    
+    
+    
+    
+#     """
+    # say_hello("sujay")
+
+
+
+        
+    # Decorator with argument
+# def repeat(n):
+#     def decorator(func):
+#         def wrapper(a):
+#             for i in range(n):
+#                 func(a)
+#         return wrapper
+#     return decorator
+
+# @repeat(7)
+# def say_hello(a):
+#     print(f"Hello! {a}")
+
+# # Function call
+# say_hello("Sujay")
+    
+    
+
+
