@@ -8,7 +8,10 @@ class employe:
         # print(l)
         return l[0]
 e= employe("sujay das",10000)
-print(e.frist_name())    
+print(e.frist_name())  
+
+
+print(f"the author of the algoritham is sujay das")
 
 
 
