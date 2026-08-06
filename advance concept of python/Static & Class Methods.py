@@ -9,10 +9,14 @@ class employee:
         info=f"the name is {self.name} and the salary is {self.salary}"
         print(info)
 
+    def sum(self,a,b):
+        return a+b
+    
 e1=employee("sujay",1500000)
 e2=employee("durgesh",78000)
 print(employee.campany)
 # print(employee.name)give the error 
 e1.print_info()
 e2.print_info()
+print(e2.sum(5,23))
 
