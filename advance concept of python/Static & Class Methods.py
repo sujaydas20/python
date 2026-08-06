@@ -8,8 +8,8 @@ class employee:
     def print_info(self):
         info=f"the name is {self.name} and the salary is {self.salary}"
         print(info)
-
-    def sum(self,a,b):
+    @staticmethod
+    def sum(a,b):
         return a+b
     
 e1=employee("sujay",1500000)
