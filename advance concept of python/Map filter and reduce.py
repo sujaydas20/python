@@ -4,5 +4,5 @@ def squere(x):
     return x*x
 
 
-new =map(squere,num)
+new =list (map(squere,num))
 print(new)
