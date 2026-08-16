@@ -45,4 +45,26 @@ def func1(*args,**kwargs):
     print(kwargs)
 
 
-func1(7,8,9,5,5,6,sujay=99,sumit=88,rajat=252)    
+func1(7,8,9,5,5,6,sujay=99,sumit=88,rajat=252)  
+
+
+
+
+
+
+
+
+
+
+
+
+def add(*args):
+    total = 0
+
+    for num in args:
+        total += num
+
+    return total
+
+print(add(10, 20))
+print(add(10, 20, 30, 40))
