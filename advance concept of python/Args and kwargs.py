@@ -26,8 +26,9 @@ print(sum(444,888,999,666))
 # kwargs
 
 def maek(**kwarge):
+    # kwargs is the dictioinary with all the key value pair which were passed to marks
     for item in kwarge.keys():
-        print(kwarge[item])
+        print(f"the mark of {item} is {kwarge[item]}")
 
 
 
