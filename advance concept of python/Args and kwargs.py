@@ -68,3 +68,19 @@ def add(*args):
 
 print(add(10, 20))
 print(add(10, 20, 30, 40))
+
+
+
+
+
+
+
+
+
+
+
+
+def student(**kwargs):
+    print(kwargs)
+
+student(name="Sujay", age=21, branch="AI")
