@@ -4,7 +4,7 @@
 
 
 
-
+# arge
 
 def sum(*args):
     total=0
@@ -14,3 +14,21 @@ def sum(*args):
 
 
 print(sum(444,888,999,666))
+
+
+
+
+
+
+
+
+
+# kwargs
+
+def maek(**kwarge):
+    for item in kwarge.keys():
+        print(kwarge[item])
+
+
+
+maek(sujay=23,rajat=88,sumit=99)        
