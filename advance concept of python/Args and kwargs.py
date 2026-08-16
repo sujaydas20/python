@@ -33,3 +33,16 @@ def maek(**kwarge):
 
 
 maek(sujay=23,rajat=88,sumit=99)        
+
+
+
+
+
+# Args and kwargs
+
+def func1(*args,**kwargs):
+    print(args)
+    print(kwargs)
+
+
+func1(7,8,9,5,5,6,sujay=99,sumit=88,rajat=252)    
