@@ -122,3 +122,11 @@ finally:
     z += 5
 
 print(z)
+
+
+
+a = [[1, 2], [3, 4], [5, 6]]
+
+b = [x for row in a for x in row if x % 2 == 0]
+
+print(sum(b))
