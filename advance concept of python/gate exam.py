@@ -62,3 +62,14 @@ a = [[1, 2, 3],
 b = [[row[i] for row in a] for i in range(3)]
 
 print(b)
+
+
+
+a = [5, 10, 15]
+
+s = 0
+
+for i, x in enumerate(a, start=1):
+    s += i * x
+
+print(s)
