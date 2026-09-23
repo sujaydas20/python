@@ -110,3 +110,15 @@ if s.startswith("GAT"):
     print(s[4:])
 else:
     print("No")
+
+
+try:
+    x = 10
+    y = 0
+    z = x // y
+except ZeroDivisionError:
+    z = 20
+finally:
+    z += 5
+
+print(z)
