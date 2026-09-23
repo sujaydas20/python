@@ -85,3 +85,10 @@ for x, y in zip(a, b):
     s += x + y
 
 print(s)
+
+
+a = [1, 2, 2, 3, 3, 3, 4]
+
+b = set(a)
+
+print(sum(b))
