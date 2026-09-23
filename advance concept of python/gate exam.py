@@ -101,3 +101,12 @@ for i in range(4):
     d[i % 2] = i
 
 print(d)
+
+
+
+s = "GATE2027"
+
+if s.startswith("GAT"):
+    print(s[4:])
+else:
+    print("No")
