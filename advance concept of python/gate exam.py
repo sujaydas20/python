@@ -92,3 +92,12 @@ a = [1, 2, 2, 3, 3, 3, 4]
 b = set(a)
 
 print(sum(b))
+
+
+
+d = {}
+
+for i in range(4):
+    d[i % 2] = i
+
+print(d)
