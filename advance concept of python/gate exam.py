@@ -73,3 +73,15 @@ for i, x in enumerate(a, start=1):
     s += i * x
 
 print(s)
+
+
+
+a = [1, 2, 3, 4]
+b = [10, 20]
+
+s = 0
+
+for x, y in zip(a, b):
+    s += x + y
+
+print(s)
