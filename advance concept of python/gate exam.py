@@ -151,3 +151,13 @@ a = [10, 20, 30, 40, 50, 60]
 x = slice(1, 5, 2)
 
 print(a[x])
+
+
+
+a = [1, 2]
+b = [a, a]
+
+b[0].append(3)
+
+print(a)
+print(b)
