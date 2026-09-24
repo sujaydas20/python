@@ -130,3 +130,16 @@ a = [[1, 2], [3, 4], [5, 6]]
 b = [x for row in a for x in row if x % 2 == 0]
 
 print(sum(b))
+
+
+
+n = 5
+s = 0
+
+while n > 0:
+    s += n
+    n -= 2
+else:
+    s += 10
+
+print(s)
