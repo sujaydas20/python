@@ -180,3 +180,17 @@ d = {i: i*i for i in range(5)}
 x = {k: v+1 for k, v in d.items() if v % 2 == 0}
 
 print(x)
+
+
+
+
+x = 0
+
+for i in range(5):
+    if i == 3:
+        break
+    x += i
+else:
+    x += 10
+
+print(x)
