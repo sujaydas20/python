@@ -206,3 +206,12 @@ f = outer(5)
 g = outer(10)
 
 print(f(3) + g(2))
+
+
+
+def f(n):
+    if n <= 1:
+        return n
+    return f(n-1) + f(n-2) + 1
+
+print(f(4))
