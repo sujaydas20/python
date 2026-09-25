@@ -194,3 +194,15 @@ else:
     x += 10
 
 print(x)
+
+
+
+def outer(x):
+    def inner(y):
+        return x + y
+    return inner
+
+f = outer(5)
+g = outer(10)
+
+print(f(3) + g(2))
