@@ -173,3 +173,10 @@ b[0].append(4)
 
 print(a)
 print(b)
+
+
+d = {i: i*i for i in range(5)}
+
+x = {k: v+1 for k, v in d.items() if v % 2 == 0}
+
+print(x)
