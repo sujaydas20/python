@@ -215,3 +215,12 @@ def f(n):
     return f(n-1) + f(n-2) + 1
 
 print(f(4))
+
+
+
+row = [0, 0]
+a = [row] * 3
+
+a[1][0] = 5
+
+print(a)
