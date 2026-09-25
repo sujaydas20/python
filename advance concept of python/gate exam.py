@@ -161,3 +161,15 @@ b[0].append(3)
 
 print(a)
 print(b)
+
+
+
+
+a = [1, 2]
+b = [a]
+
+a = a + [3]
+b[0].append(4)
+
+print(a)
+print(b)
